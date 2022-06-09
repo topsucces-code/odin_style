@@ -9,10 +9,9 @@
 
 .header-container {
     
-    
+    margin: 0;
     background-color: rgb(22, 22, 43);
-    margin-left: 10%;
-    margin-right: 10%;
+    
 
 }
 
@@ -21,6 +20,7 @@
    justify-content: space-between;
    margin-left: 10%;
    margin-right: 10%;
+  
 
 }
 
@@ -81,6 +81,7 @@ button>a{
 .information{
     color: #000;
     text-align: center;
+    margin: 0;
 }
 
 .info-container>p{
@@ -89,8 +90,10 @@ button>a{
 }
 
 .main-content{
-    margin-right:10%;
-    margin-left:10%; 
+    margin-right: 0%;
+    margin-left: 0%;
+    
+    
 }
 .information-container{
     display: flex;
@@ -98,9 +101,12 @@ button>a{
     justify-content: center;
     align-content: center;
     column-gap: 25px;
+    margin: 0;
+     
+}
 
-    
-    
+.container{
+    background-color: azure;
 }
 
 
@@ -115,4 +121,84 @@ button>a{
 .citation{
     height: 300px;
     background-color: grey;
+    padding: 100px;
+    margin: 0;
+}
+
+
+blockquote p {
+
+text-align: center;
+font-size: 2em;
+}
+
+blockquote{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+figcaption {
+    flex: 1;
+    align-self: end;
+    height: 60px;
+}
+
+cite{
+    float: right;
+}
+
+.body-div{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0px;
+    box-shadow: rgb(212, 211, 211) 1px 1px 1px 1px;
+}
+
+body{
+    background-color: rgb(57, 57, 83);
+}
+
+.action{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(45, 45, 226);
+    margin: 35px;
+    border-radius: 3px;
+    align-self: center;
+    flex:auto
+
+}
+
+
+.button-container{
+    align-self: center;
+}
+
+.call-to-action{
+background-color: aliceblue;
+height: 250px;
+display: flex;
+}
+
+div h3{
+    color:white;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(22, 22, 43);
+    height: 150px;
+}
+
+footer h3{
+    text-align: center;
+    margin: 0;
+}
+
+.footer-div{
+    flex: auto;
+    align-self: center;
+
 }
